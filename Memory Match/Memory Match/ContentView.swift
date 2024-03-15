@@ -21,7 +21,7 @@ struct ContentView: View {
             })
         }
         .background()
-            .image("IMG_0634.png")
+             Image("IMG_0634.png")
     }
         func start ()
         {

@@ -10,9 +10,9 @@ import SwiftUI
 struct SwiftUIView: View {
     
     let columns: [GridItem] = [
-        GridItem(.fixed(100),spacing: nil, alignment: nil)
-        GridItem(.fixed(100),spacing: nil, alignment: nil)
-        GridItem(.fixed(100),spacing: nil, alignment: nil)
+        GridItem(.fixed(100),spacing: nil, alignment: nil),
+        GridItem(.fixed(100),spacing: nil, alignment: nil),
+        GridItem(.fixed(100),spacing: nil, alignment: nil),
         ]
     @State var cardsFlipped: [Bool] = Array(repeating: false, count: 16)
     @State var emojis = ["😀", "😀" ,"😁", "😁", "😂", "😂", "🤣", "🤣", "😃", "😃", "😄", "😄",]
